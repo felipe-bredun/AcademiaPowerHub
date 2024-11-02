@@ -9,7 +9,7 @@ namespace AcademiaPowerHub
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            //opaaaaaa
         }
 
         // Lógica para alternar a visibilidade da senha ao marcar/desmarcar o CheckBox

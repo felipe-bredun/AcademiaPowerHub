@@ -30,46 +30,46 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeAlunosGeral));
             panel1 = new Panel();
+            panel9 = new Panel();
+            pictureBox3 = new PictureBox();
+            label3 = new Label();
+            label2 = new Label();
+            panel6 = new Panel();
+            label7 = new Label();
+            panel10 = new Panel();
+            pictureBox5 = new PictureBox();
+            panel7 = new Panel();
+            label6 = new Label();
+            panel5 = new Panel();
+            label8 = new Label();
+            panel11 = new Panel();
+            pictureBox4 = new PictureBox();
             panel4 = new Panel();
+            label4 = new Label();
+            panel8 = new Panel();
+            pictureBox2 = new PictureBox();
             label1 = new Label();
             panel2 = new Panel();
             lblBotaoSairAppHomeAlunos = new Label();
             label5 = new Label();
             panel3 = new Panel();
             pictureBox1 = new PictureBox();
-            panel5 = new Panel();
-            panel6 = new Panel();
-            panel7 = new Panel();
-            label2 = new Label();
-            label3 = new Label();
-            panel8 = new Panel();
-            panel9 = new Panel();
-            panel10 = new Panel();
-            panel11 = new Panel();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            label4 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
             panel1.SuspendLayout();
+            panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel6.SuspendLayout();
+            panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            panel7.SuspendLayout();
+            panel5.SuspendLayout();
+            panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel4.SuspendLayout();
+            panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel5.SuspendLayout();
-            panel6.SuspendLayout();
-            panel7.SuspendLayout();
-            panel8.SuspendLayout();
-            panel9.SuspendLayout();
-            panel10.SuspendLayout();
-            panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -89,6 +89,146 @@
             panel1.Size = new Size(879, 589);
             panel1.TabIndex = 0;
             // 
+            // panel9
+            // 
+            panel9.Controls.Add(pictureBox3);
+            panel9.Location = new Point(114, 366);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(52, 50);
+            panel9.TabIndex = 1;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox3.Dock = DockStyle.Fill;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(0, 0);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(52, 50);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 0;
+            pictureBox3.TabStop = false;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(499, 556);
+            label3.Name = "label3";
+            label3.Size = new Size(224, 17);
+            label3.TabIndex = 20;
+            label3.Text = "Telefone (47) 99876-5432";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(120, 556);
+            label2.Name = "label2";
+            label2.Size = new Size(332, 17);
+            label2.TabIndex = 6;
+            label2.Text = "Contato: powerhub.academia@gmail.com";
+            // 
+            // panel6
+            // 
+            panel6.BorderStyle = BorderStyle.FixedSingle;
+            panel6.Controls.Add(label7);
+            panel6.Controls.Add(panel10);
+            panel6.Location = new Point(471, 366);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(299, 50);
+            panel6.TabIndex = 19;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(124, 18);
+            label7.Name = "label7";
+            label7.Size = new Size(80, 17);
+            label7.TabIndex = 23;
+            label7.Text = "EVOLUÇÃO";
+            // 
+            // panel10
+            // 
+            panel10.Controls.Add(pictureBox5);
+            panel10.Location = new Point(0, 0);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(52, 50);
+            panel10.TabIndex = 1;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox5.Dock = DockStyle.Fill;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(0, 0);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(52, 50);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 0;
+            pictureBox5.TabStop = false;
+            // 
+            // panel7
+            // 
+            panel7.BorderStyle = BorderStyle.FixedSingle;
+            panel7.Controls.Add(label6);
+            panel7.Location = new Point(114, 366);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(299, 50);
+            panel7.TabIndex = 18;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(121, 18);
+            label6.Name = "label6";
+            label6.Size = new Size(89, 17);
+            label6.TabIndex = 22;
+            label6.Text = "PERSONAIS";
+            // 
+            // panel5
+            // 
+            panel5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            panel5.BorderStyle = BorderStyle.FixedSingle;
+            panel5.Controls.Add(label8);
+            panel5.Controls.Add(panel11);
+            panel5.Location = new Point(471, 272);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(299, 50);
+            panel5.TabIndex = 17;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(119, 17);
+            label8.Name = "label8";
+            label8.Size = new Size(89, 17);
+            label8.TabIndex = 24;
+            label8.Text = "VENENINHO";
+            // 
+            // panel11
+            // 
+            panel11.Controls.Add(pictureBox4);
+            panel11.Location = new Point(0, 0);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(52, 50);
+            panel11.TabIndex = 1;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox4.Dock = DockStyle.Fill;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(0, 0);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(52, 50);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 0;
+            pictureBox4.TabStop = false;
+            // 
             // panel4
             // 
             panel4.BorderStyle = BorderStyle.FixedSingle;
@@ -98,6 +238,37 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(299, 50);
             panel4.TabIndex = 16;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(129, 17);
+            label4.Name = "label4";
+            label4.Size = new Size(71, 17);
+            label4.TabIndex = 21;
+            label4.Text = "TREINOS";
+            label4.Click += label4_Click;
+            // 
+            // panel8
+            // 
+            panel8.Controls.Add(pictureBox2);
+            panel8.Location = new Point(0, 0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(52, 50);
+            panel8.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox2.Dock = DockStyle.Fill;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(52, 50);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -162,176 +333,6 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // panel5
-            // 
-            panel5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-            panel5.Controls.Add(label8);
-            panel5.Controls.Add(panel11);
-            panel5.Location = new Point(471, 272);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(299, 50);
-            panel5.TabIndex = 17;
-            // 
-            // panel6
-            // 
-            panel6.BorderStyle = BorderStyle.FixedSingle;
-            panel6.Controls.Add(label7);
-            panel6.Controls.Add(panel10);
-            panel6.Location = new Point(471, 366);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(299, 50);
-            panel6.TabIndex = 19;
-            // 
-            // panel7
-            // 
-            panel7.BorderStyle = BorderStyle.FixedSingle;
-            panel7.Controls.Add(label6);
-            panel7.Location = new Point(114, 366);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(299, 50);
-            panel7.TabIndex = 18;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(120, 556);
-            label2.Name = "label2";
-            label2.Size = new Size(332, 17);
-            label2.TabIndex = 6;
-            label2.Text = "Contato: powerhub.academia@gmail.com";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(499, 556);
-            label3.Name = "label3";
-            label3.Size = new Size(224, 17);
-            label3.TabIndex = 20;
-            label3.Text = "Telefone (47) 99876-5432";
-            // 
-            // panel8
-            // 
-            panel8.Controls.Add(pictureBox2);
-            panel8.Location = new Point(0, 0);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(52, 50);
-            panel8.TabIndex = 0;
-            // 
-            // panel9
-            // 
-            panel9.Controls.Add(pictureBox3);
-            panel9.Location = new Point(114, 366);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(52, 50);
-            panel9.TabIndex = 1;
-            // 
-            // panel10
-            // 
-            panel10.Controls.Add(pictureBox5);
-            panel10.Location = new Point(0, 0);
-            panel10.Name = "panel10";
-            panel10.Size = new Size(52, 50);
-            panel10.TabIndex = 1;
-            // 
-            // panel11
-            // 
-            panel11.Controls.Add(pictureBox4);
-            panel11.Location = new Point(0, 0);
-            panel11.Name = "panel11";
-            panel11.Size = new Size(52, 50);
-            panel11.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Dock = DockStyle.Fill;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(0, 0);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(52, 50);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox3.Dock = DockStyle.Fill;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(0, 0);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(52, 50);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 0;
-            pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox4.Dock = DockStyle.Fill;
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(0, 0);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(52, 50);
-            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox4.TabIndex = 0;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox5.Dock = DockStyle.Fill;
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(0, 0);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(52, 50);
-            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox5.TabIndex = 0;
-            pictureBox5.TabStop = false;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(129, 17);
-            label4.Name = "label4";
-            label4.Size = new Size(71, 17);
-            label4.TabIndex = 21;
-            label4.Text = "TREINOS";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(121, 18);
-            label6.Name = "label6";
-            label6.Size = new Size(89, 17);
-            label6.TabIndex = 22;
-            label6.Text = "PERSONAIS";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(124, 18);
-            label7.Name = "label7";
-            label7.Size = new Size(80, 17);
-            label7.TabIndex = 23;
-            label7.Text = "EVOLUÇÃO";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(119, 17);
-            label8.Name = "label8";
-            label8.Size = new Size(89, 17);
-            label8.TabIndex = 24;
-            label8.Text = "VENENINHO";
-            // 
             // HomeAlunosGeral
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -344,26 +345,26 @@
             Text = "HomeAlunosGeral";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
-            panel8.ResumeLayout(false);
-            panel9.ResumeLayout(false);
-            panel10.ResumeLayout(false);
-            panel11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
         }
 

@@ -215,7 +215,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.OrangeRed;
-            ClientSize = new Size(1184, 801);
+            ClientSize = new Size(1184, 749);
             Controls.Add(panel1);
             Name = "Registro";
             StartPosition = FormStartPosition.CenterScreen;

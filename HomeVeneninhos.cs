@@ -16,5 +16,10 @@ namespace AcademiaPowerHub
         {
             InitializeComponent();
         }
+
+        private void HomeVeneninhos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

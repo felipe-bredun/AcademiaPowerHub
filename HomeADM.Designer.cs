@@ -40,24 +40,22 @@
             lblBotaoSairLogin = new Label();
             panel5 = new Panel();
             panel6 = new Panel();
-            panel7 = new Panel();
-            panel8 = new Panel();
             label1 = new Label();
-            label2 = new Label();
+            lblAddProdutoHomeAdiministração = new Label();
+            lnlAdicionarAluno = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel5.SuspendLayout();
+            panel6.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.White;
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(panel7);
-            panel1.Controls.Add(panel8);
             panel1.Controls.Add(panel6);
             panel1.Controls.Add(panel5);
             panel1.Controls.Add(textBox1);
@@ -150,7 +148,7 @@
             // 
             // panel5
             // 
-            panel5.Controls.Add(label2);
+            panel5.Controls.Add(lblAddProdutoHomeAdiministração);
             panel5.Location = new Point(188, 221);
             panel5.Name = "panel5";
             panel5.Size = new Size(274, 49);
@@ -158,24 +156,11 @@
             // 
             // panel6
             // 
+            panel6.Controls.Add(lnlAdicionarAluno);
             panel6.Location = new Point(522, 221);
             panel6.Name = "panel6";
             panel6.Size = new Size(268, 49);
             panel6.TabIndex = 5;
-            // 
-            // panel7
-            // 
-            panel7.Location = new Point(522, 323);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(268, 49);
-            panel7.TabIndex = 7;
-            // 
-            // panel8
-            // 
-            panel8.Location = new Point(188, 323);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(274, 49);
-            panel8.TabIndex = 6;
             // 
             // label1
             // 
@@ -187,15 +172,25 @@
             label1.TabIndex = 3;
             label1.Text = "ESCOLHA O QUE DESEJA FAZER";
             // 
-            // label2
+            // lblAddProdutoHomeAdiministração
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(45, 16);
-            label2.Name = "label2";
-            label2.Size = new Size(178, 18);
-            label2.TabIndex = 8;
-            label2.Text = "ADICIONAR PRODUTO";
+            lblAddProdutoHomeAdiministração.AutoSize = true;
+            lblAddProdutoHomeAdiministração.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAddProdutoHomeAdiministração.Location = new Point(62, 15);
+            lblAddProdutoHomeAdiministração.Name = "lblAddProdutoHomeAdiministração";
+            lblAddProdutoHomeAdiministração.Size = new Size(178, 18);
+            lblAddProdutoHomeAdiministração.TabIndex = 8;
+            lblAddProdutoHomeAdiministração.Text = "ADICIONAR PRODUTO";
+            // 
+            // lnlAdicionarAluno
+            // 
+            lnlAdicionarAluno.AutoSize = true;
+            lnlAdicionarAluno.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lnlAdicionarAluno.Location = new Point(45, 15);
+            lnlAdicionarAluno.Name = "lnlAdicionarAluno";
+            lnlAdicionarAluno.Size = new Size(168, 18);
+            lnlAdicionarAluno.TabIndex = 9;
+            lnlAdicionarAluno.Text = "ADICIONAR ALUNOS";
             // 
             // HomeADM
             // 
@@ -216,6 +211,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -235,6 +232,7 @@
         private Panel panel8;
         private Panel panel6;
         private Panel panel5;
-        private Label label2;
+        private Label lblAddProdutoHomeAdiministração;
+        private Label lnlAdicionarAluno;
     }
 }

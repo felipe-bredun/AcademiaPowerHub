@@ -1,6 +1,6 @@
 ﻿namespace AcademiaPowerHub
 {
-    partial class Cadastramento
+    partial class CadastramentoDeProdutos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastramento));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastramentoDeProdutos));
             panel1 = new Panel();
             panel3 = new Panel();
+            textBoxCategoria = new TextBox();
+            textBoxTributacao = new TextBox();
+            textBoxQuantidade = new TextBox();
             textBoxDescrição = new TextBox();
             textBoxPreço = new TextBox();
             textBoxNomeProduto = new TextBox();
@@ -38,9 +41,6 @@
             label1 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            textBoxQuantidade = new TextBox();
-            textBoxTributacao = new TextBox();
-            textBoxCategoria = new TextBox();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -70,10 +70,40 @@
             panel3.Size = new Size(786, 278);
             panel3.TabIndex = 0;
             // 
+            // textBoxCategoria
+            // 
+            textBoxCategoria.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBoxCategoria.Location = new Point(456, 201);
+            textBoxCategoria.Name = "textBoxCategoria";
+            textBoxCategoria.Size = new Size(200, 29);
+            textBoxCategoria.TabIndex = 6;
+            textBoxCategoria.Text = "CATEGORIA";
+            textBoxCategoria.TextAlign = HorizontalAlignment.Center;
+            // 
+            // textBoxTributacao
+            // 
+            textBoxTributacao.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBoxTributacao.Location = new Point(138, 201);
+            textBoxTributacao.Name = "textBoxTributacao";
+            textBoxTributacao.Size = new Size(200, 29);
+            textBoxTributacao.TabIndex = 5;
+            textBoxTributacao.Text = "TRIBUTAÇÃO";
+            textBoxTributacao.TextAlign = HorizontalAlignment.Center;
+            // 
+            // textBoxQuantidade
+            // 
+            textBoxQuantidade.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBoxQuantidade.Location = new Point(456, 120);
+            textBoxQuantidade.Name = "textBoxQuantidade";
+            textBoxQuantidade.Size = new Size(200, 29);
+            textBoxQuantidade.TabIndex = 4;
+            textBoxQuantidade.Text = "QUANTIDADE";
+            textBoxQuantidade.TextAlign = HorizontalAlignment.Center;
+            // 
             // textBoxDescrição
             // 
             textBoxDescrição.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxDescrição.Location = new Point(122, 120);
+            textBoxDescrição.Location = new Point(138, 120);
             textBoxDescrição.Name = "textBoxDescrição";
             textBoxDescrição.Size = new Size(200, 29);
             textBoxDescrição.TabIndex = 3;
@@ -83,7 +113,7 @@
             // textBoxPreço
             // 
             textBoxPreço.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxPreço.Location = new Point(476, 47);
+            textBoxPreço.Location = new Point(456, 47);
             textBoxPreço.Name = "textBoxPreço";
             textBoxPreço.Size = new Size(200, 29);
             textBoxPreço.TabIndex = 2;
@@ -93,7 +123,7 @@
             // textBoxNomeProduto
             // 
             textBoxNomeProduto.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxNomeProduto.Location = new Point(122, 47);
+            textBoxNomeProduto.Location = new Point(138, 47);
             textBoxNomeProduto.Name = "textBoxNomeProduto";
             textBoxNomeProduto.Size = new Size(200, 29);
             textBoxNomeProduto.TabIndex = 1;
@@ -143,37 +173,7 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // textBoxQuantidade
-            // 
-            textBoxQuantidade.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxQuantidade.Location = new Point(476, 120);
-            textBoxQuantidade.Name = "textBoxQuantidade";
-            textBoxQuantidade.Size = new Size(200, 29);
-            textBoxQuantidade.TabIndex = 4;
-            textBoxQuantidade.Text = "QUANTIDADE";
-            textBoxQuantidade.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBoxTributacao
-            // 
-            textBoxTributacao.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxTributacao.Location = new Point(122, 201);
-            textBoxTributacao.Name = "textBoxTributacao";
-            textBoxTributacao.Size = new Size(200, 29);
-            textBoxTributacao.TabIndex = 5;
-            textBoxTributacao.Text = "TRIBUTAÇÃO";
-            textBoxTributacao.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBoxCategoria
-            // 
-            textBoxCategoria.Font = new Font("Courier New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxCategoria.Location = new Point(476, 201);
-            textBoxCategoria.Name = "textBoxCategoria";
-            textBoxCategoria.Size = new Size(200, 29);
-            textBoxCategoria.TabIndex = 6;
-            textBoxCategoria.Text = "CATEGORIA";
-            textBoxCategoria.TextAlign = HorizontalAlignment.Center;
-            // 
-            // Cadastramento
+            // CadastramentoDeProdutos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -181,7 +181,7 @@
             ClientSize = new Size(1184, 749);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Name = "Cadastramento";
+            Name = "CadastramentoDeProdutos";
             Text = "Cadastramento";
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);

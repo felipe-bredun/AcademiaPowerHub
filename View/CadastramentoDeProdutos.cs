@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AcademiaPowerHub
 {
-    public partial class Cadastramento : Form
+    public partial class CadastramentoDeProdutos : Form
     {
-        public Cadastramento()
+        public CadastramentoDeProdutos()
         {
             InitializeComponent();
         }

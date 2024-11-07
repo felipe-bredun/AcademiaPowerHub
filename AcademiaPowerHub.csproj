@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <Folder Include="Model\" />
+    <Folder Include="Controler\" />
   </ItemGroup>
 
 </Project>

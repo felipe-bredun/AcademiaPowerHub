@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastramentoDeProdutos));
             panel1 = new Panel();
+            btnVerListaDeProdutos = new Button();
             btnApertoParaCadastrar = new Button();
             panel3 = new Panel();
             textBoxCategoria = new TextBox();
@@ -42,7 +43,6 @@
             label1 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            btnVerListaDeProdutos = new Button();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -60,6 +60,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(991, 564);
             panel1.TabIndex = 0;
+            // 
+            // btnVerListaDeProdutos
+            // 
+            btnVerListaDeProdutos.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnVerListaDeProdutos.Location = new Point(522, 469);
+            btnVerListaDeProdutos.Name = "btnVerListaDeProdutos";
+            btnVerListaDeProdutos.Size = new Size(184, 49);
+            btnVerListaDeProdutos.TabIndex = 11;
+            btnVerListaDeProdutos.Text = "VER PRODUTOS";
+            btnVerListaDeProdutos.UseVisualStyleBackColor = true;
+            btnVerListaDeProdutos.Click += btnVerListaDeProdutos_Click;
             // 
             // btnApertoParaCadastrar
             // 
@@ -192,16 +203,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            // 
-            // btnVerListaDeProdutos
-            // 
-            btnVerListaDeProdutos.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnVerListaDeProdutos.Location = new Point(522, 469);
-            btnVerListaDeProdutos.Name = "btnVerListaDeProdutos";
-            btnVerListaDeProdutos.Size = new Size(184, 49);
-            btnVerListaDeProdutos.TabIndex = 11;
-            btnVerListaDeProdutos.Text = "VER PRODUTOS";
-            btnVerListaDeProdutos.UseVisualStyleBackColor = true;
             // 
             // CadastramentoDeProdutos
             // 

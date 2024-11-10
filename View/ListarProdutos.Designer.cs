@@ -37,6 +37,7 @@
             BackColor = Color.OrangeRed;
             ClientSize = new Size(1184, 749);
             Name = "ListarProdutos";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ListarProdutos";
             ResumeLayout(false);
         }

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastramentoDeProdutos));
             panel1 = new Panel();
+            btnApertoParaCadastrar = new Button();
             panel3 = new Panel();
             textBoxCategoria = new TextBox();
             textBoxTributacao = new TextBox();
@@ -41,6 +42,7 @@
             label1 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
+            btnVerListaDeProdutos = new Button();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -51,11 +53,24 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(btnVerListaDeProdutos);
+            panel1.Controls.Add(btnApertoParaCadastrar);
             panel1.Controls.Add(panel3);
             panel1.Location = new Point(107, 73);
             panel1.Name = "panel1";
             panel1.Size = new Size(991, 564);
             panel1.TabIndex = 0;
+            // 
+            // btnApertoParaCadastrar
+            // 
+            btnApertoParaCadastrar.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnApertoParaCadastrar.Location = new Point(305, 469);
+            btnApertoParaCadastrar.Name = "btnApertoParaCadastrar";
+            btnApertoParaCadastrar.Size = new Size(184, 49);
+            btnApertoParaCadastrar.TabIndex = 10;
+            btnApertoParaCadastrar.Text = "CADASTRAR";
+            btnApertoParaCadastrar.UseVisualStyleBackColor = true;
+            btnApertoParaCadastrar.Click += btnApertoParaCadastrar_Click;
             // 
             // panel3
             // 
@@ -79,6 +94,7 @@
             textBoxCategoria.TabIndex = 6;
             textBoxCategoria.Text = "CATEGORIA";
             textBoxCategoria.TextAlign = HorizontalAlignment.Center;
+            textBoxCategoria.TextChanged += textBoxCategoria_TextChanged;
             // 
             // textBoxTributacao
             // 
@@ -89,6 +105,7 @@
             textBoxTributacao.TabIndex = 5;
             textBoxTributacao.Text = "TRIBUTAÇÃO";
             textBoxTributacao.TextAlign = HorizontalAlignment.Center;
+            textBoxTributacao.TextChanged += textBoxTributacao_TextChanged;
             // 
             // textBoxQuantidade
             // 
@@ -99,6 +116,7 @@
             textBoxQuantidade.TabIndex = 4;
             textBoxQuantidade.Text = "QUANTIDADE";
             textBoxQuantidade.TextAlign = HorizontalAlignment.Center;
+            textBoxQuantidade.TextChanged += textBoxQuantidade_TextChanged;
             // 
             // textBoxDescrição
             // 
@@ -109,6 +127,7 @@
             textBoxDescrição.TabIndex = 3;
             textBoxDescrição.Text = "DESCRIÇÃO";
             textBoxDescrição.TextAlign = HorizontalAlignment.Center;
+            textBoxDescrição.TextChanged += textBoxDescrição_TextChanged;
             // 
             // textBoxPreço
             // 
@@ -119,6 +138,7 @@
             textBoxPreço.TabIndex = 2;
             textBoxPreço.Text = "PREÇO";
             textBoxPreço.TextAlign = HorizontalAlignment.Center;
+            textBoxPreço.TextChanged += textBoxPreço_TextChanged;
             // 
             // textBoxNomeProduto
             // 
@@ -173,6 +193,16 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // btnVerListaDeProdutos
+            // 
+            btnVerListaDeProdutos.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnVerListaDeProdutos.Location = new Point(522, 469);
+            btnVerListaDeProdutos.Name = "btnVerListaDeProdutos";
+            btnVerListaDeProdutos.Size = new Size(184, 49);
+            btnVerListaDeProdutos.TabIndex = 11;
+            btnVerListaDeProdutos.Text = "VER PRODUTOS";
+            btnVerListaDeProdutos.UseVisualStyleBackColor = true;
+            // 
             // CadastramentoDeProdutos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -182,6 +212,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "CadastramentoDeProdutos";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cadastramento";
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
@@ -207,5 +238,7 @@
         private TextBox textBoxCategoria;
         private TextBox textBoxTributacao;
         private TextBox textBoxQuantidade;
+        private Button btnApertoParaCadastrar;
+        private Button btnVerListaDeProdutos;
     }
 }

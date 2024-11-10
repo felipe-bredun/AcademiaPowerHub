@@ -1,0 +1,1 @@
+Nome: Deca, Preço: 70, Descrição: Do bom, Quantidade: 120, Tributação: 12, Categoria: Veneninho

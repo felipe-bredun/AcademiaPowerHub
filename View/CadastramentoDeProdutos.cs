@@ -75,6 +75,7 @@ namespace AcademiaPowerHub
             }
 
 
+
             string produto = $"Nome: {textBoxNomeProduto.Text}, Preço: {textBoxPreço.Text}, Descrição: {textBoxDescrição.Text}, " +
                              $"Quantidade: {textBoxQuantidade.Text}, Tributação: {textBoxTributacao.Text}, Categoria: {textBoxCategoria.Text}";
 

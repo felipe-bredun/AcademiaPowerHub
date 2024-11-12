@@ -48,10 +48,12 @@ namespace AcademiaPowerHub.View
         private void pictureBox2_Click(object sender, EventArgs e)
         {
            
-                ListarProdutos listarprodutos = new ListarProdutos();
-                listarprodutos.Show();
-                this.Hide();
-            
+         
+
+            this.Hide();
+            HomeADM homeADMForm = new HomeADM();
+            homeADMForm.Show();
+
         }
     }
 }

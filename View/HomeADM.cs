@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AcademiaPowerHub.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,17 +43,9 @@ namespace AcademiaPowerHub
 
         private void lblVerListaDeProdutos_Click(object sender, EventArgs e)
         {
-            string filePath = "ListaDeProdutos.txt";
-
-            if (!File.Exists(filePath) || new FileInfo(filePath).Length == 0)
-            {
-                MessageBox.Show("Não há itens cadastrados", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                string produtos = File.ReadAllText(filePath);
-                MessageBox.Show(produtos, "Lista de Produtos", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            ListarProdutos listarOsQueridesProdutos = new ListarProdutos();
+            listarOsQueridesProdutos.Show();
+            this.Hide();
         }
     }
 }

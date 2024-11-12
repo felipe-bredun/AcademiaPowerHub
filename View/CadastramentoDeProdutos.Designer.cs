@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastramentoDeProdutos));
             panel1 = new Panel();
-            btnVerListaDeProdutos = new Button();
             btnApertoParaCadastrar = new Button();
             panel3 = new Panel();
             textBoxCategoria = new TextBox();
@@ -53,7 +52,6 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
-            panel1.Controls.Add(btnVerListaDeProdutos);
             panel1.Controls.Add(btnApertoParaCadastrar);
             panel1.Controls.Add(panel3);
             panel1.Location = new Point(107, 73);
@@ -61,21 +59,10 @@
             panel1.Size = new Size(991, 564);
             panel1.TabIndex = 0;
             // 
-            // btnVerListaDeProdutos
-            // 
-            btnVerListaDeProdutos.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnVerListaDeProdutos.Location = new Point(522, 469);
-            btnVerListaDeProdutos.Name = "btnVerListaDeProdutos";
-            btnVerListaDeProdutos.Size = new Size(184, 49);
-            btnVerListaDeProdutos.TabIndex = 11;
-            btnVerListaDeProdutos.Text = "VER PRODUTOS";
-            btnVerListaDeProdutos.UseVisualStyleBackColor = true;
-            btnVerListaDeProdutos.Click += btnVerListaDeProdutos_Click;
-            // 
             // btnApertoParaCadastrar
             // 
             btnApertoParaCadastrar.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnApertoParaCadastrar.Location = new Point(305, 469);
+            btnApertoParaCadastrar.Location = new Point(418, 464);
             btnApertoParaCadastrar.Name = "btnApertoParaCadastrar";
             btnApertoParaCadastrar.Size = new Size(184, 49);
             btnApertoParaCadastrar.TabIndex = 10;
@@ -240,6 +227,5 @@
         private TextBox textBoxTributacao;
         private TextBox textBoxQuantidade;
         private Button btnApertoParaCadastrar;
-        private Button btnVerListaDeProdutos;
     }
 }

@@ -11,13 +11,11 @@ namespace AcademiaPowerHub
             _homeAdm = homeAdm;
         }
 
-        // Método para fechar a aba da administração
         public void FecharAbaHomeADM()
         {
             _homeAdm.Close();
         }
 
-        // Método para ir para o cadastro de produtos
         public void IrParaCadastroDeProdutos()
         {
             CadastramentoDeProdutos formCadastro = new CadastramentoDeProdutos();
@@ -25,7 +23,6 @@ namespace AcademiaPowerHub
             _homeAdm.Hide();
         }
 
-        // Método para exibir a lista de produtos
         public void VerListaDeProdutos()
         {
             ListarProdutos formListar = new ListarProdutos();
@@ -33,7 +30,7 @@ namespace AcademiaPowerHub
             _homeAdm.Hide();
         }
 
-        // Método para fazer logout (fechar a aplicação)
+  
         public void SairLogin()
         {
             _homeAdm.Close();

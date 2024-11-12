@@ -13,7 +13,7 @@ namespace AcademiaPowerHub.View
 {
     public partial class ListarProdutos : Form
     {
-        private string caminhoArquivo = "ListaDeProdutos.txt"; // Caminho do arquivo TXT
+        private string caminhoArquivo = "ListaDeProdutos.txt"; // arquivo TXT
 
         public ListarProdutos()
         {
@@ -25,7 +25,6 @@ namespace AcademiaPowerHub.View
         {
             if (File.Exists(caminhoArquivo))
             {
-                // Lê todas as linhas do arquivo e adiciona cada linha como um item no ListBox
                 var usuarios = File.ReadAllLines(caminhoArquivo);
                 foreach (var usuario in usuarios)
                 {

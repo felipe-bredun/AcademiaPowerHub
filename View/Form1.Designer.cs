@@ -43,6 +43,7 @@
             lblLogin = new Label();
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
+            lblIrParaLoja = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -51,6 +52,7 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(lblIrParaLoja);
             panel1.Controls.Add(btnLoginAbaLoginInicial);
             panel1.Controls.Add(lblBotaoSairLogin);
             panel1.Controls.Add(checkBoxMostrarSenhaLogin);
@@ -199,6 +201,18 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // lblIrParaLoja
+            // 
+            lblIrParaLoja.AutoSize = true;
+            lblIrParaLoja.Font = new Font("Courier New", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblIrParaLoja.ForeColor = Color.Black;
+            lblIrParaLoja.Location = new Point(514, 442);
+            lblIrParaLoja.Name = "lblIrParaLoja";
+            lblIrParaLoja.Size = new Size(210, 15);
+            lblIrParaLoja.TabIndex = 18;
+            lblIrParaLoja.Text = "Clique aqui para ir para loja";
+            lblIrParaLoja.Click += lblIrParaLoja_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -232,5 +246,6 @@
         private CheckBox checkBoxMostrarSenhaLogin;
         private Label lblBotaoSairLogin;
         private Button btnLoginAbaLoginInicial;
+        private Label lblIrParaLoja;
     }
 }

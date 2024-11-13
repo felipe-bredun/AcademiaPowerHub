@@ -1,3 +1,5 @@
+using AcademiaPowerHub.View;
+
 namespace AcademiaPowerHub
 {
     public partial class Form1 : Form
@@ -65,6 +67,13 @@ namespace AcademiaPowerHub
         {
             Registro irParaRegistro = new Registro();
             irParaRegistro.Show();
+            this.Hide();
+        }
+
+        private void lblIrParaLoja_Click(object sender, EventArgs e)
+        {
+            PHStore phStore = new PHStore();
+            phStore.Show();
             this.Hide();
         }
     }

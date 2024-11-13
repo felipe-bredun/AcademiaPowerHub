@@ -14,7 +14,7 @@
         private void lblBotaoSairLogin_Click(object sender, EventArgs e)
         {
             _facade.SairLogin();
-
+        }
 
             void lblFecharAbaHomeAdiministração_Click(object sender, EventArgs e)
             {
@@ -38,6 +38,6 @@
             {
                 MessageBox.Show("Você clicou em 'Login'");
             }
-        }
+        
     }
 }
